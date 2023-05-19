@@ -1,0 +1,40 @@
+.cllr {
+    color: rgba(0, 0, 255, 0.368);
+    margin-right: 5px;
+    height: 13px;
+    text-align: center;
+}
+
+.header-sec {
+    color: rgba(0, 0, 0, 0.628);
+    background-color: #F5F5F5;
+    text-align: center;
+    justify-content: center;
+    height: 26px;
+    font-family: 'signicon';
+}
+
+li {
+    list-style: none;
+    margin-inline: 15px;
+}
+
+li a {
+    text-decoration: none;
+    color: #666666;
+    font-size: 14px;
+}
+
+
+
+
+
+
+/* Media Quries */
+@media screen and (max-width:1000px) and (min-width:800px) {}
+
+@media only screen and (max-width:800px) {
+    .header-sec {
+        display: none;
+    }
+}

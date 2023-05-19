@@ -1,0 +1,180 @@
+.coma {
+    margin-top: 6px;
+    color: gray;
+}
+
+.header-section {
+    height: 75px;
+    box-sizing: border-box;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 28px;
+    z-index: 55;
+    background-color: white;
+}
+
+header.sticky {
+    background-color: #a6dfbd;
+    top: 0;
+    transition: 0.2s;
+    position: fixed;
+}
+
+header.sticky .signicon {
+    color: white;
+}
+
+header.sticky li a {
+    color: #FF2222 !important;
+}
+
+header.sticky .navbar-nav {
+    margin-left: auto !important;
+}
+
+header.sticky .navbar-brand {
+    color: red !important;
+}
+
+
+
+
+
+.respons {
+    display: flex;
+}
+
+.navbar-brand {
+    font-size: 33px !important;
+    font-weight: 700;
+    color: #008ECC !important;
+}
+
+.chart {
+    height: 33px;
+    width: 40px;
+    margin-right: 15px;
+}
+
+.bars {
+    margin-top: -3px;
+    font-size: 12px !important;
+}
+
+/* input sec */
+.search-bar {
+    border: none;
+    background-color: #F3F9FB;
+    color: #008ECC;
+    height: 37px;
+    border-radius: 5px 0 0 5px;
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+.input-field {
+    border: none;
+    background-color: #F3F9FB;
+    color: #008ECC;
+    width: 310px;
+    height: 36.7px;
+    font-family: monospace;
+    font-size: 12px;
+    padding-left: 15px;
+}
+
+
+.list-items {
+    border: none;
+    background-color: #F3F9FB;
+    color: #008ECC;
+    height: 37px;
+    border-radius: 0 5px 5px 0;
+    padding-right: 10px;
+    font-size: 12px;
+}
+
+.signin {
+    font-size: 14px;
+    font-family: monospace;
+    margin-right: 8px;
+}
+
+.signicon {
+    color: #008ECC;
+    margin-right: 8px
+}
+
+
+
+/* Meida Quries */
+@media screen and (max-width:1000px) and (min-width:800px) {
+    .input-field {
+        width: 280px;
+    }
+}
+
+@media only screen and (max-width:990px) {
+    .input-field {
+        border: none;
+        background-color: #F3F9FB;
+        color: #008ECC;
+        width: 100%;
+        height: 37px;
+        font-family: monospace;
+        font-size: 12px;
+        padding-left: 15px;
+    }
+
+    .navvvber {
+        display: flex !important;
+        margin: 10px 15px;
+    }
+
+    .respons {
+        margin: auto !important;
+        display: block;
+    }
+
+    .navbar-nav {
+        margin: auto !important;
+    }
+
+    .coma {
+        display: none;
+    }
+
+    .navbar-brand {
+        font-size: 25px !important;
+        font-weight: 700;
+        color: #008ECC !important;
+    }
+
+
+    .chart {
+        height: 25px;
+        width: 40px;
+        margin-right: 6px;
+    }
+
+    .navbar-collapse {
+        background-color: rgba(128, 128, 128, 0.82);
+        z-index: 2;
+        border-radius: 15px;
+    }
+
+    .header-section {
+        top: 0;
+        background-color: white;
+    }
+
+    header.sticky {
+        background-color: white;
+    }
+
+    header.sticky .navbar-brand {
+        color: #008ECC !important;
+    }
+
+}
